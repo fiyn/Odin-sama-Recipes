@@ -1,0 +1,61 @@
+/* custom font */
+
+@font-face {
+    font-family: 'Norse Regular';
+    src: url('../fonts/Norse.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('../fonts/Norsebold.woff') format('woff');
+}
+
+@font-face {
+    font-family: '1550';
+    src:url('../fonts/1550.ttf.woff') format('woff');
+    /* ,url('../fonts/1550.ttf.eot'); */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* default style */
+
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+*, *::before , *::after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: #ffef96; 
+    --bg-color-2: #F1D00A;
+    --font-color: #020202; 
+    --font-color-2: #F0F0F0;
+    --night-navy: #21325E;
+    --navy:#3E497A;
+}
+
+body {
+    font-family: '1550', sans-serif;
+    background-color: var(--bg-color);
+}
+
+h1, h2, h3, figcaption, .image-caption {
+    font-family: 'Norse Bold', serif;
+}
+
+a {
+    color: var(--font-color);
+}
+
+a:link {
+    /* text-decoration: none; */
+}
+

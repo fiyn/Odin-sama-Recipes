@@ -4,31 +4,60 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./css/default.css">
+        <link rel="stylesheet" href="index_style.css">
         <title>Odin Recipes</title>
     </head>
 
     <body>
         <header>
-            <img src="./images/mythology.png" alt="logo">
-            <!-- <a href="https://www.flaticon.com/free-icons/mythology" title="mythology icons">Mythology icons created by Freepik - Flaticon</a> -->
-            <h1>Odin Recipes</h1>
+            <div class="header-container">
+                <img class="logo" src="./images/mythology.png" alt="logo">
+                <!-- <a href="https://www.flaticon.com/free-icons/mythology" title="mythology icons">Mythology icons created by Freepik - Flaticon</a> -->
+                <h1>Odin Recipes</h1>
+            </div>
+
         </header>
         
+        <main class="main-container">
+            <div class="recipes-container">
+                <div class="recipes-card">
+                    <a href="./recipes/lasagna.html">
+                        <figure class="recipes-image-container">
+                            <img src="./images/font_page_lasagna.jpg" alt="Debbie's Vegetable Lasagna"> 
+                         </figure>
+                         <figcaption class="image-caption">
+                            Debbie's Vegetable Lasagna
+                         </figcaption>
+                    </a>
+                </div>
+                <div class="recipes-card">
+                    <a href="./recipes/hotdogs.html">
+                        <figure class="recipes-image-container">
+                            <img src="./images/front_page_hotdogs.jpg" alt="Basic Air Fryer Hot Dogs"> 
+                         </figure>
+                         <div  class="image-caption">
+                            <!-- <figcaption class="image-caption"> -->
+                                Basic Air Fryer Hot Dogs
+                            <!-- </figcaption> -->
+                         </div>
 
-        <figure>
-            <img src="./images/chef.jpg" alt="Chef">
-        </figure>
+                    </a>
+                </div>
+                <div class="recipes-card">
+                    <a href="./recipes/coconutcake.html">
+                        <figure class="recipes-image-container">
+                            <img src="./images/front_page_cocunut_cake_2.jpg" alt="Coconut Coconut Milk Cake"> 
+                        </figure>
+                        <div  class="image-caption">
+                            <!-- <figcaption class="image-caption"> -->
+                                Coconut Coconut Milk Cake
+                            <!-- </figcaption> -->
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </main>
         
-        <div>
-            <h2>List Of Recipes</h2>
-            <div>
-            <ul>
-                <li><a href="./recipes/lasagna.html">Debbie's Vegetable Lasagna</a></li>
-                <li><a href="./recipes/hotdogs.html">Basic Air Fryer Hot Dogs</a></li>
-                <li><a href="./recipes/coconutcake.html">Coconut Coconut Milk Cake</a></li>
-            </ul> 
-            </div>           
-        </div>
     </body>
 </html>
