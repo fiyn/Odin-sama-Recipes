@@ -26,7 +26,8 @@ body {
     transition: all 0.13s ease-in;
 
     /* credit: Author
-    Jad Limcaco */
+    Jad Limcaco 
+    https://codepen.io/jadlimcaco/pen/ExjGrqJ */
 
 }
 
@@ -89,4 +90,9 @@ body {
 
 .steps-list li p {
     font-size: 0.9rem;
+}
+
+.container__homepage-link {
+    padding: 0.2em;
+    margin-top: 0.5rem;
 }

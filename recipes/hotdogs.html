@@ -5,44 +5,71 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/default.css">
-        <link rel="stylesheet" href="../css/hotdogs_style.css">
+        <link rel="stylesheet" href="../css/recipe.css">
+        <link rel="icon" type="" href="./images/favicon.png">
         <title>Basic Air Fryer Hot Dogs</title>
     </head>
 
     <body>
-        <h1>Basic Air Fryer Hot Dogs</h1>
+        <div class="container__recipe">
 
-        <p><img src="../images/hotdogs.jpg" alt="Air Fryer Hot Dogs Picture"></p>
-        <h2>Description</h2>
-        <p>Perfectly crisp hot dogs and toasted buns made in minutes with the help of your air fryer. Top with ketchup, mustard, relish, chili, or condiments of choice.</p>
-        <h3>Ingredients</h3>
-        <ul>
-            <li>4 hot dog buns</li>
-            <li>4 hot dogs</li>
-        </ul>
+            <header class="recipe__header">
+                <h1 class="header__title"><span class="header">Basic Air Fryer Hot Dogs</span></h1>
+            </header>
+            
+            <section class="container__section recipe__figure">
+                <figure>
+                    <img src="../images/hotdogs.jpg" alt="Air Fryer Hot Dogs Picture">
+                    <figcaption></figcaption>
+                </figure>
+            </section>
 
-        <h2>Steps</h2>
-        <ol>
-            <li><b>Step 1</b><br> 
-                <p>
-                    Preheat air fryer to 390 degrees F (200 degrees C).
-                </p>
-            </li>
+           <section class="container__section recipe__desc">
+                <h2 class="section__title"><span class="underline">Description</span></h2>
+                <p>Perfectly crisp hot dogs and toasted buns made in minutes with the help of your air fryer. Top with ketchup, mustard, relish, chili, or condiments of choice.</p>
+           </section>
+          
+           <section class="container__section recipe__ingredients">
+                <h2 class="section__title"><span class="underline">Ingredients</span></h2>
+                <div class="container__list">
+                    <ul>
+                        <li>4 hot dog buns</li>
+                        <li>4 hot dogs</li>
+                    </ul>
+                </div>
+           </section>
 
-            <li><b>Step 2</b><br> 
-                <p>
-                    Place buns in the basket of the air fryer and cook for 2 minutes. Remove buns to a plate.
-                </p>
-            </li>
-
-            <li><b>Step 3</b><br> 
-                <p>
-                    Place hot dogs in the basket of the air fryer and cook for 3 minutes. Transfer hot dogs to buns.
-                </p>
-            </li>
-        </ol>
-
-        <p><a href="../index.html">Return to Homepage</a></p>
+            <section class="container__section recipe__steps">
+                <h2 class="section__title"><span class="underline">Steps</span></h2>
+                <div class="container__list">
+                    <ol class="steps-list">
+                        <li>
+                            <b>Step 1</b><br> 
+                            <p>
+                                Preheat air fryer to 390 degrees F (200 degrees C).
+                            </p>
+                        </li>
+            
+                        <li>
+                            <b>Step 2</b><br> 
+                            <p>
+                                Place buns in the basket of the air fryer and cook for 2 minutes. Remove buns to a plate.
+                            </p>
+                        </li>
+            
+                        <li>
+                            <b>Step 3</b><br> 
+                            <p>
+                                Place hot dogs in the basket of the air fryer and cook for 3 minutes. Transfer hot dogs to buns.
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+        </div>
+        <div class="container__homepage-link">
+            <a href="../index.html">Return to Homepage</a>
+        </div>
 
     </body>
 </html>
