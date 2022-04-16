@@ -36,6 +36,7 @@ html {
 :root {
     --bg-color: #ffef96; 
     --bg-color-2: #F1D00A;
+    --underline: rgba(241, 208, 10, 0.8);
     --font-color: #020202; 
     --font-color-2: #F0F0F0;
     --night-navy: #21325E;
@@ -57,5 +58,13 @@ a {
 
 a:link {
     /* text-decoration: none; */
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+ol {
+    list-style: none;
 }
 
